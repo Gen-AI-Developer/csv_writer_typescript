@@ -1,0 +1,12 @@
+{
+  "name": "csv_writer_typescript",
+  "version": "1.0.0",
+  "description": "This is simple Typescript project by the name of CSV Writer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Safdar Ali Shah",
+  "license": "MIT"
+}

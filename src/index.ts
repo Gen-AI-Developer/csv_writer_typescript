@@ -5,7 +5,7 @@ interface Payment {
     to: string,
     notes: string
 }
-class CSVWriter{
-    constructor(){}
-    private csv:string
+class CSVWriter {
+    constructor() { }
+
 }

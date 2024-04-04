@@ -13,7 +13,7 @@ class CSVWriter {
     private csv: string
     addRows(values: Payment[]): void {
         let rows = values.map((v) => this.formatRow(v))
-        this.csv += rows.join('\n');
+        this.csv += rows.join(' \n ');
         console.log(this.csv)
     }
     private formatRow(p: Payment): string {
